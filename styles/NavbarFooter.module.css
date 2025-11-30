@@ -49,7 +49,7 @@
   align-items: flex-start;
   /* align left; use center if you prefer */
   gap: 0.4rem;
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 .footerAvatar {
@@ -113,24 +113,53 @@
   text-decoration: none !important;
 }
 
-@media only screen and (max-width: 550px){
-  .footerlogo{
-    font-size: 25px;
+@media only screen and (max-width: 550px) {
+  .footerlogo {
+    font-size: 22px;
+    letter-spacing: 0.1em;
   }
-  .footermain{
+
+  .footermain {
     text-align: left;
+    padding: 1.5rem 1.5rem 2rem;
   }
+
   .footertable {
     display: block;
-    margin: 0 auto 0 auto;
-   
     width: 100%;
+    margin: 0 auto 0 auto;
   }
-  .footertable ul{
-    list-style: none;
+
+  .footerBrand {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
   }
-  .listHeading{
-    margin-top: 1.5rem !important;
+
+  .footerLogoRow {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .footerAvatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  .footertable ul {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .listHeading {
+    margin-top: 1.2rem !important;
+  }
+
+  .footercontent {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1.8rem;
   }
 }
 
@@ -138,25 +167,44 @@
   .logo{
     font-size: 20px;
   }
-  .navlinks {
-    padding: 0.5rem;
-    font-size: 12px;
-  } 
-  .navbar{
-    padding: 0.5rem;
-  }
+   .navlinks {
+     padding: 0.5rem;
+     font-size: 13px;
+   }
+     .navbar {
+       padding: 0.7rem 2rem;
+     }
+         .footertable {
+           width: 90%;
+           grid-template-columns: 1.2fr 1fr 1fr;
+         }
+    .footerLogoRow {
+      padding-left: 0;
+      align-items: flex-start;
+    }
+  
+    .footerAvatar {
+      width: 120px;
+      height: 120px;
+    }
   .css-yi1c6h {
     --slider-track-width: 2rem !important;
     --slider-track-height: 1rem !important;
 }
 }
 
-@media only screen and (max-width: 380px){
-  .footercontent{
-    font-size: 14px;
+@media only screen and (max-width: 380px) {
+  .footerlogo {
+    font-size: 20px;
   }
-  .footertable {
-    padding: 0;
+
+  .footerAvatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .footercontent {
+    font-size: 13px;
   }
 }
 
