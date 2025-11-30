@@ -26,7 +26,7 @@ const Footer = ({ currentTheme }) => {
     </div>
   </Link>
   <p className={styles.footerTagline}>
-    Game Developer & Software Engineer crafting immersive interactive experiences.
+    Game Developer & Software Engineer 
   </p>
 </div>
 
