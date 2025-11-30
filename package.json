@@ -1,0 +1,47 @@
+{
+  "name": "rishi-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Rishi Bose – Game Developer & Software Engineer.",
+  "author": "Rishi Bose",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RishiBose04/rishi-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "game developer",
+    "rishi bose",
+    "nextjs"
+  ],
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.13",
+    "@chakra-ui/react": "^1.6.4",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "aos": "^2.3.4",
+    "dotenv": "^10.0.0",
+    "framer-motion": "^4.1.17",
+    "next": "^16.0.4",
+    "nodemailer": "^7.0.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.2.0",
+    "react-swipeable": "^6.1.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0"
+  }
+}
