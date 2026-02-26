@@ -20,7 +20,7 @@ export const userinfo = {
     greeting: {
         //this text goes on your landing page
         title: "Rishi Bose",
-        subtitle: "Game Designer | Developer | Software Engineer",
+        subtitle: "Game Developer / Programmer",
     },
  capabilities: [
      {
